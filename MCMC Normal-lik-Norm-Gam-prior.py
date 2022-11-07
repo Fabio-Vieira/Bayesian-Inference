@@ -57,4 +57,6 @@ df.mean()
 df.var()
 
 plt.plot(df[["mean"]])
+plt.close()
 plt.plot(df[["variance"]])
+plt.close()
